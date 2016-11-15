@@ -1,6 +1,6 @@
-<a href="https://rbltracker.com"><img src="https://rbltracker.com/portal/static/3.4/images/rbl_logo_front.png"/></a>
+<a href="https://rbltracker.com" target="_blank"><img src="https://rbltracker.com/portal/static/3.4/images/rbl_logo_front.png"/></a>
 
-[Sign up][rbltracker sign up] for a RBLTracker account and visit our [Developer Site](https://rbltracker.com/docs/api/) for event more details.
+[Sign up][rbltracker sign up] for a RBLTracker account and visit our [Developer Site](https://rbltracker.com/docs/api/) for even more details.
 
 # Node.js Client Library
 
