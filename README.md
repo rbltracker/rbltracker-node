@@ -1,7 +1,12 @@
 <a href="https://rbltracker.com" target="_blank">
     <picture>
+<<<<<<< HEAD
         <source media="(prefers-color-scheme: dark)" srcset="https://portal.rbltracker.com/assets/3.14/images/rbltracker_logo_dark.svg" width="400">      
         <img src="https://portal.rbltracker.com/assets/3.14/images/rbltracker_logo_light.svg" width="400">                                                                                 
+=======
+        <source media="(prefers-color-scheme: dark)" srcset="https://portal.rbltracker.com/assets/3.14/images/rbltracker_logo_dark.svg" width="400">
+        <img src="https://portal.rbltracker.com/assets/3.14/images/rbltracker_logo_light.svg" width="400">
+>>>>>>> eee3e4b2a9689e73b74b78f640234301ed441015
     </picture>
 </a>
 
