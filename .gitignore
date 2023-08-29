@@ -1,1 +1,3 @@
 node_modules
+.svn
+package-lock.json

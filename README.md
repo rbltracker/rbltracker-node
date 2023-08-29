@@ -1,4 +1,9 @@
-<a href="https://rbltracker.com" target="_blank"><img src="https://rbltracker.com/portal/static/3.4/images/rbl_logo_front.png"/></a>
+<a href="https://rbltracker.com" target="_blank">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://portal.rbltracker.com/assets/3.14/images/rbltracker_logo_dark.svg" width="400">      
+        <img src="https://portal.rbltracker.com/assets/3.14/images/rbltracker_logo_light.svg" width="400">                                                                                 
+    </picture>
+</a>
 
 [Sign up][rbltracker sign up] for a RBLTracker account and visit our [developer site][rbltracker dev site] for even more details.
 
@@ -10,8 +15,8 @@ The official Node.js binding for your RBLTracker service.
 
 Before using this library, you must have:
 
-* A RBLTracker Account, [sign up for a new account][rbltracker sign up] or [login to RBLTracker](https://rbltracker.com/portal/login/)
-* a valid RBLTracker account SID and auth token, available from the [RBLTracker Portal](https://rbltracker.com/portal/login/)
+* A RBLTracker Account, [sign up for a new account][rbltracker sign up] or [login to RBLTracker](https://portal.rbltracker.com/login/)
+* a valid RBLTracker account SID and auth token, available from the [RBLTracker Portal](https://portal.rbltracker.com/login/)
 
 ## Installation
 
@@ -43,6 +48,11 @@ Full API documentation is available from the [RBLTracker developer site.][rbltra
 
 ## Release History
 
+### v1.1.0
+* updated to the use the new API endpoint URL
+* added support for Monitoring Profiles, moving away from RBL Profiles 
+* added support for the ACLs endpoint to pull the list of DNS servers used for checks 
+
 ### v1.0.1
 * updated to support the RBLTracker API v3.6
 * added manual RBL check support
@@ -50,5 +60,5 @@ Full API documentation is available from the [RBLTracker developer site.][rbltra
 ### v1.0.0
 * initial release
 
-[rbltracker sign up]:   https://rbltracker.com/portal/signup/
+[rbltracker sign up]:   https://portal.rbltracker.com/signup/
 [rbltracker dev site]:  https://rbltracker.com/docs/api/

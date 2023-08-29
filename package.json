@@ -1,6 +1,6 @@
 {
     "name": "rbltracker",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "A Node library for communicating with the RBLTracker REST API",
     "main": "./lib/index.js",
     "directories": {
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/%3Arbltracker/rbltracker-node.git"
+        "url": "git://github.com/rbltracker/rbltracker-node.git"
     },
     "keywords": [
         "rbltracker",
@@ -21,7 +21,7 @@
     "author": "Mike Pultz <mike@mikepultz.com> (https://mikepultz.com)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/%3Arbltracker/rbltracker-node/issues"
+        "url": "https://github.com/rbltracker/rbltracker-node/issues"
     },
     "homepage": "https://rbltracker.com",
     "devDependencies": {
